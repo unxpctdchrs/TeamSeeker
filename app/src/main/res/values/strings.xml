@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TeamSeeker</string>
+    <string name="welcomeback">Welcome Back</string>
+    <string name="havewemetb4">Have We Met Before?</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signin">Sign in</string>
+    <string name="signuptitle">Sign Up</string>
+    <string name="signup">Sign up</string>
+    <string name="letsgetstarted">Let\'s Get Started!</string>
+    <string name="donthaveanaccyet">Don\'t Have an Account yet?</string>
+    <string name="alrhaveanacc">Already Have an Account?</string>
+
+</resources>
