@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ApplicantCreationActivity"
+    android:background="@color/black">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical"
+        tools:layout_editor_absoluteX="-25dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="124dp"
+                android:layout_height="37dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="30dp"
+                android:src="@drawable/ic_logo"
+                android:layout_gravity="start"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Create Account"
+                android:textColor="@color/white"
+                android:textSize="29dp"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserratsemibold"
+                android:text="Profile Photo"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"/>
+
+            <ImageButton
+                android:layout_width="180dp"
+                android:layout_height="220dp"
+                android:background="@drawable/transparent_bg_bordered_button"
+                android:src="@drawable/ic_plus_circle"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserratsemibold"
+                android:text="Full Name"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_gravity="start"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/fullnameEText"
+                android:layout_width="340dp"
+                android:layout_height="32dp"
+                android:background="@drawable/textedit"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserratsemibold"
+                android:text="Username"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_gravity="start"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/usernameEText"
+                android:layout_width="340dp"
+                android:layout_height="32dp"
+                android:background="@drawable/textedit"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserratsemibold"
+                android:text="Major"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_gravity="start"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/majorEText"
+                android:layout_width="340dp"
+                android:layout_height="32dp"
+                android:background="@drawable/textedit"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserratsemibold"
+                android:text="Year"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_gravity="start"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/yearEText"
+                android:layout_width="340dp"
+                android:layout_height="32dp"
+                android:background="@drawable/textedit"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserratsemibold"
+                android:text="Gender"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_gravity="start"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="start">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/transparent_bg_bordered_button"
+                    android:fontFamily="@font/montserratsemibold"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textOff="Male"
+                    android:textOn="Male"
+                    android:layout_marginRight="20dp"/>
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/transparent_bg_bordered_button"
+                    android:fontFamily="@font/montserratsemibold"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textOff="Female"
+                    android:textOn="Female" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserratsemibold"
+                android:text="Expertise"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_gravity="start"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/expertiseEText"
+                android:layout_width="340dp"
+                android:layout_height="32dp"
+                android:background="@drawable/textedit"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserratsemibold"
+                android:text="Description"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_gravity="start"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/descriptionEText"
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:background="@drawable/textedit"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserratsemibold"
+                android:text="Portfolio Link"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_gravity="start"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/portfolioEText"
+                android:layout_width="340dp"
+                android:layout_height="32dp"
+                android:background="@drawable/textedit"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

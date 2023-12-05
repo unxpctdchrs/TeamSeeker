@@ -13,8 +13,20 @@
         android:theme="@style/Theme.TeamSeeker"
         tools:targetApi="31">
         <activity
+            android:name=".activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.RecruiterCreationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ApplicantCreationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MenuActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.RegisterActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".activity.LoginActivity"
             android:exported="true">

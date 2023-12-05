@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".activity.LoginActivity"
-    android:background="@drawable/background_gradient1">
+    android:background="@color/black">
 
     <ImageView
         android:id="@+id/imageView"
@@ -109,7 +109,7 @@
         android:textColor="@color/white"/>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/signinbtn"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="161dp"
@@ -143,6 +143,7 @@
             android:textSize="15sp" />
 
         <Button
+            android:id="@+id/signuptextbtn"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
